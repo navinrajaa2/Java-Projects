@@ -1,104 +1,103 @@
-🎓 Student Grade Management System (Java AWT)
+# 🎓 Student Grade Management System (Java AWT)
 
-A simple Java AWT GUI application to manage student records, calculate grade statistics, and persist data using file handling.
+A simple **Java AWT–based desktop application** for managing student records, calculating grade statistics, and persisting data using file handling.  
+This project demonstrates core Java concepts such as GUI development, event handling, object-oriented programming, and file I/O.
 
-🚀 Features
+---
 
-Add student details (Name, Roll Number, Grade)
+## 🚀 Features
 
-Display all student records
+- Add student details:
+  - Name  
+  - Roll Number  
+  - Grade
+- Display all student records
+- Calculate grade statistics:
+  - Total number of students  
+  - Average grade  
+  - Highest grade  
+  - Lowest grade
+- Save student records to a file
+- Load saved records from a file
+- User-friendly graphical interface built with **Java AWT**
+- Persistent storage using **File I/O**
 
-Calculate:
+---
 
-Total number of students
+## 🛠️ Tech Stack
 
-Average grade
+- Java
+- Java AWT (GUI)
+- File Handling
+  - BufferedReader
+  - FileWriter
+  - PrintWriter
+- Collections
+  - ArrayList
 
-Highest grade
+---
 
-Lowest grade
+## 📂 Project Structure
 
-Save student data to a file
+│
+├── StudentGrade.java
+└── studentlist.txt (auto-generated after saving data)
+---
 
-Load student data from a file
+## ▶️ How to Run
 
-User-friendly GUI built with Java AWT
+### 1️⃣ Clone the Repository
+    git clone https://github.com/navinrajaa2/StudentGrade.git
 
-Data persistence using File I/O
+---
+### 2️⃣ Navigate to the Project Directory
+    cd StudentGrade
 
-🛠️ Tech Stack
+---
+### 3️⃣ Compile the Program
+    javac StudentGrade.java
 
-Java
+---
+### 4️⃣ Run the Application
+    java StudentGrade
+# 💾 File Storage Format
 
-Java AWT (GUI)
-
-File Handling (BufferedReader, FileWriter, PrintWriter)
-
-Collections (ArrayList)
-
-📂 Project Structure
-StudentGrade.java
-studentlist.txt   (auto-generated after saving data)
-
-▶️ How to Run
-
-Clone the repository:
-
-git clone https://github.com/navinrajaa2/StudentGrade.git
-
-
-Navigate to the project directory:
-
-cd StudentGrade
-
-
-Compile the program:
-
-javac StudentGrade.java
-
-
-Run the application:
-
-java StudentGrade
-
-💾 File Storage Format
-
-Student data is stored in the following format inside studentlist.txt:
-
+Student records are stored in studentlist.txt using the following format:
 Name,Grade,RollNumber
 
-
-Example:
-
-Navin,90,101
-
-📸 Application Flow
+---
+# 📸 Application Workflow
 
 Enter student details → Add Student
 
-View statistics → Show Student
+View student list and statistics → Show Student
 
 Save records → Save to File
 
-Reload saved records → Load File
+Reload saved data → Load File
 
-🧠 Learning Outcomes
+---
+# 🧠 Learning Outcomes
 
 Java GUI development using AWT
 
 Event handling with ActionListener
 
-Object-oriented programming
+Object-Oriented Programming principles
 
-File reading and writing
+File reading and writing in Java
 
-Data manipulation using collections
+Data manipulation using Java collections
 
-👨‍💻 Author
+---
+# 👨‍💻 Author
 
 Navin Rajaa
-GitHub: https://github.com/navinrajaa2/Student_Grade_GU.git
+GitHub: https://github.com/navinrajaa2
 
-📄 License
+---
+# 📄 License
 
-This project is open-source and available for learning and educational purposes.
+This project is open-source and intended for learning and educational purposes.
+
+---
